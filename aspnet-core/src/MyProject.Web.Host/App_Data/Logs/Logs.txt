@@ -1,0 +1,705 @@
+DEBUG 2020-08-10 14:23:10,807 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-10 14:23:10,864 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-10 14:23:10,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.Web.Host.Startup.MyProjectWebHostModule, MyProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectWebCoreModule, MyProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectApplicationModule, MyProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectCoreModule, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.EntityFrameworkCore.MyProjectEntityFrameworkModule, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:10,885 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-10 14:23:10,955 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-10 14:23:10,955 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-10 14:23:10,955 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-10 14:23:10,955 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-10 14:23:11,273 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject.EntityFrameworkCore.MyProjectDbContext, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-10 14:23:12,045 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-10 14:23:12,149 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-10 14:23:12,192 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-10 14:23:12,212 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject
+DEBUG 2020-08-10 14:23:12,241 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-10 14:23:12,386 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-10 14:23:12,510 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-08-10 14:23:12,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-08-10 14:23:12,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-10 14:23:12,552 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.CreateUserDto
+DEBUG 2020-08-10 14:23:12,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.UserDto
+DEBUG 2020-08-10 14:23:12,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-10 14:23:12,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-10 14:23:12,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Roles.Dto.PermissionDto
+DEBUG 2020-08-10 14:23:12,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-10 14:23:12,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.TenantDto
+INFO  2020-08-10 14:23:16,902 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2020-08-10 14:23:16,902 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-08-10 14:23:16,972 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.0648ms 200 
+INFO  2020-08-10 14:23:17,149 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-08-10 14:23:19,424 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)
+INFO  2020-08-10 14:23:20,222 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host) - Validation state: Valid
+INFO  2020-08-10 14:23:20,226 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.418ms.
+INFO  2020-08-10 14:23:20,295 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-08-10 14:23:20,306 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host) in 877.1148ms
+INFO  2020-08-10 14:23:20,308 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-08-10 14:23:20,322 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3427.6085ms 302 
+INFO  2020-08-10 14:23:20,324 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-08-10 14:23:20,346 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.185ms 301 
+INFO  2020-08-10 14:23:20,353 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-08-10 14:23:20,491 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 137.9247ms 200 text/html
+INFO  2020-08-10 14:23:20,510 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-08-10 14:23:20,512 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-08-10 14:23:20,513 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-08-10 14:23:20,516 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-08-10 14:23:20,518 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-08-10 14:23:20,548 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\Admin\Desktop\MyProject (4)\4.8.0\aspnet-core\src\MyProject.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-08-10 14:23:20,549 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\Admin\Desktop\MyProject (4)\4.8.0\aspnet-core\src\MyProject.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-08-10 14:23:20,552 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.6956ms 200 application/javascript
+INFO  2020-08-10 14:23:20,554 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.9083ms 200 application/javascript
+INFO  2020-08-10 14:23:20,558 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-08-10 14:23:20,561 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.4038ms 200 text/css
+INFO  2020-08-10 14:23:20,571 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-08-10 14:23:20,577 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.9448ms 200 application/javascript
+INFO  2020-08-10 14:23:20,585 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-08-10 14:23:20,588 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.9622ms 200 application/javascript
+INFO  2020-08-10 14:23:20,805 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-08-10 14:23:20,836 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-08-10 14:23:20,841 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-08-10 14:23:20,844 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.9872ms 200 image/png
+INFO  2020-08-10 14:23:20,967 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 160.7908ms 200 application/json;charset=utf-8
+INFO  2020-08-10 14:38:49,589 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:38:49,595 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:38:49,604 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.7901ms 204 
+INFO  2020-08-10 14:38:49,649 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:38:49,651 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:38:49,659 [49   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:38:49,661 [49   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:38:49,662 [49   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:38:49,663 [49   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:38:49,669 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:38:49,680 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-08-10 14:38:49,682 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:38:49,685 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-08-10 14:38:50,326 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 639.9036ms.
+INFO  2020-08-10 14:38:50,343 [49   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:38:50,376 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 694.2401ms
+INFO  2020-08-10 14:38:50,378 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:38:50,380 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 731.2573ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:38:50,407 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:38:50,408 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:38:50,410 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.7317ms 204 
+INFO  2020-08-10 14:38:50,427 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:38:50,429 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:38:50,430 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:38:50,432 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:38:50,436 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:38:50,440 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:38:50,443 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:38:50,449 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)
+INFO  2020-08-10 14:38:50,450 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:38:50,504 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:38:50,511 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.3447ms.
+INFO  2020-08-10 14:38:50,526 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:38:50,566 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 92.0526ms
+INFO  2020-08-10 14:38:50,567 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:38:50,568 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.6626ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:39:17,343 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2020-08-10 14:39:17,345 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:17,346 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.9081ms 204 
+INFO  2020-08-10 14:39:17,357 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 161
+INFO  2020-08-10 14:39:17,360 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:39:17,362 [47   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:17,365 [47   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:39:17,366 [47   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:39:17,368 [47   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:39:17,372 [47   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:39:17,388 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)
+INFO  2020-08-10 14:39:17,389 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:39:17,865 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2020-08-10 14:39:17,867 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2020-08-10 14:39:17,867 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field Password must be a string with a maximum length of 32. (Password)
+INFO  2020-08-10 14:39:17,876 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:39:17,880 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) in 489.8847ms
+INFO  2020-08-10 14:39:17,881 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:39:17,884 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 527.1334ms 400 application/json; charset=utf-8
+INFO  2020-08-10 14:39:28,475 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:39:28,478 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:28,483 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.3075ms 204 
+INFO  2020-08-10 14:39:28,491 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:39:28,493 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:39:28,495 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:28,498 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:39:28,500 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:39:28,502 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:39:28,505 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:39:28,512 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-08-10 14:39:28,514 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:28,516 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-08-10 14:39:28,524 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.2294ms.
+INFO  2020-08-10 14:39:28,530 [54   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:39:28,531 [54   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 17.8608ms
+INFO  2020-08-10 14:39:28,534 [54   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:39:28,536 [54   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.2995ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:39:28,553 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:39:28,555 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:28,557 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.8493ms 204 
+INFO  2020-08-10 14:39:28,559 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:39:28,561 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:39:28,562 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:28,563 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:39:28,565 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:39:28,566 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:39:28,569 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:39:28,572 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)
+INFO  2020-08-10 14:39:28,575 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:28,577 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:39:28,579 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.323ms.
+INFO  2020-08-10 14:39:28,580 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:39:28,582 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 8.387ms
+INFO  2020-08-10 14:39:28,583 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:39:28,585 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.3931ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:39:50,028 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2020-08-10 14:39:50,029 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:50,032 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.9741ms 204 
+INFO  2020-08-10 14:39:50,035 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2020-08-10 14:39:50,036 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:39:50,037 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:50,038 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:39:50,039 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:39:50,041 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:39:50,045 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:39:50,048 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)
+INFO  2020-08-10 14:39:50,050 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:50,056 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) with arguments (MyProject.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2020-08-10 14:39:50,532 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 474.3251ms.
+INFO  2020-08-10 14:39:50,538 [57   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:39:50,542 [57   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) in 490.6059ms
+INFO  2020-08-10 14:39:50,545 [57   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:39:50,547 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 511.9219ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:39:50,762 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:39:50,764 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:50,766 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.7804ms 204 
+INFO  2020-08-10 14:39:50,769 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:39:50,771 [57   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:50,808 [57   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2020-08-10 14:39:50,889 [49   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:50,891 [49   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:39:50,894 [49   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:50,896 [49   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:39:50,898 [49   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:39:50,902 [49   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:39:50,911 [58   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:50,913 [58   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2020-08-10 14:39:50,914 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:39:50,917 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-08-10 14:39:50,918 [58   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:50,920 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-08-10 14:39:51,064 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 142.668ms.
+INFO  2020-08-10 14:39:51,069 [58   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:39:51,071 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 152.5242ms
+INFO  2020-08-10 14:39:51,073 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:39:51,076 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.3722ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:39:51,099 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:39:51,100 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:51,102 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.4331ms 204 
+INFO  2020-08-10 14:39:51,106 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:39:51,108 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:51,112 [48   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2020-08-10 14:39:51,114 [48   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:51,115 [48   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:39:51,117 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:51,120 [48   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:39:51,122 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:39:51,126 [48   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:39:51,128 [48   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:39:51,129 [48   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2020-08-10 14:39:51,131 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:39:51,134 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)
+INFO  2020-08-10 14:39:51,137 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:39:51,142 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:39:51,164 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20.5618ms.
+INFO  2020-08-10 14:39:51,166 [59   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:39:51,170 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 32.9486ms
+INFO  2020-08-10 14:39:51,171 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:39:51,173 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.4957ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:00,690 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/ChangeLanguage  
+INFO  2020-08-10 14:40:00,691 [59   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:00,693 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.0705ms 204 
+INFO  2020-08-10 14:40:00,697 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/ChangeLanguage application/json;charset=UTF-8 26
+INFO  2020-08-10 14:40:00,699 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:00,701 [56   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2020-08-10 14:40:00,703 [56   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:40:00,706 [56   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:40:00,707 [56   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:40:00,708 [56   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:40:00,710 [56   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:40:00,711 [56   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:40:00,712 [56   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:40:00,713 [56   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+INFO  2020-08-10 14:40:00,715 [56   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.ChangeLanguage (MyProject.Application)'
+INFO  2020-08-10 14:40:00,721 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ChangeLanguage", controller = "User"}. Executing action MyProject.Users.UserAppService.ChangeLanguage (MyProject.Application)
+INFO  2020-08-10 14:40:00,722 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:00,870 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.ChangeLanguage (MyProject.Application) with arguments (MyProject.Users.Dto.ChangeUserLanguageDto) - Validation state: Valid
+INFO  2020-08-10 14:40:00,901 [57   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.ChangeLanguage (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 29.3838ms.
+INFO  2020-08-10 14:40:00,907 [58   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:00,909 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.ChangeLanguage (MyProject.Application) in 186.2733ms
+INFO  2020-08-10 14:40:00,912 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.ChangeLanguage (MyProject.Application)'
+INFO  2020-08-10 14:40:00,914 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 217.0078ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:01,130 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:40:01,131 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:01,133 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.0547ms 204 
+INFO  2020-08-10 14:40:01,136 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:40:01,138 [57   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:01,141 [57   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:01,147 [56   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:40:01,151 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-08-10 14:40:01,153 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:01,156 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-08-10 14:40:01,170 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 11.9244ms.
+INFO  2020-08-10 14:40:01,176 [49   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:01,183 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 24.7834ms
+INFO  2020-08-10 14:40:01,184 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:40:01,186 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.1179ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:01,203 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:40:01,205 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:01,207 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4671ms 204 
+INFO  2020-08-10 14:40:01,210 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:40:01,212 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:01,214 [48   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:01,215 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:40:01,219 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)
+INFO  2020-08-10 14:40:01,221 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:01,224 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:40:01,230 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.5662ms.
+INFO  2020-08-10 14:40:01,232 [59   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:01,234 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 13.5463ms
+INFO  2020-08-10 14:40:01,235 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:40:01,238 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.7006ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:03,899 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:03,901 [57   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:03,903 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2020-08-10 14:40:03,906 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.176ms 204 
+INFO  2020-08-10 14:40:03,910 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:03,914 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:03,919 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.4997ms 204 
+INFO  2020-08-10 14:40:03,920 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:03,921 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2020-08-10 14:40:03,923 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:03,924 [48   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:03,926 [49   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:03,929 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetRoles (MyProject.Application)'
+INFO  2020-08-10 14:40:03,931 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:03,936 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action MyProject.Users.UserAppService.GetRoles (MyProject.Application)
+INFO  2020-08-10 14:40:03,938 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:03,941 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.GetRoles (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:40:03,951 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action MyProject.Users.UserAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:40:03,952 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:03,964 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.GetRoles (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.1062ms.
+INFO  2020-08-10 14:40:03,969 [51   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:03,973 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetRoles (MyProject.Application) in 35.1816ms
+INFO  2020-08-10 14:40:03,976 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetRoles (MyProject.Application)'
+INFO  2020-08-10 14:40:03,981 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.6761ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:03,984 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.GetAll (MyProject.Application) with arguments (MyProject.Users.Dto.PagedUserResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:40:04,171 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 185.4235ms.
+INFO  2020-08-10 14:40:04,177 [57   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:04,183 [57   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAll (MyProject.Application) in 229.3738ms
+INFO  2020-08-10 14:40:04,184 [57   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:04,186 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 274.5787ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:05,773 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:05,776 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2020-08-10 14:40:05,778 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:05,783 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:05,784 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.4133ms 204 
+INFO  2020-08-10 14:40:05,787 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.4613ms 204 
+INFO  2020-08-10 14:40:05,789 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2020-08-10 14:40:05,791 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:05,794 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:05,795 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:05,797 [51   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:05,799 [49   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:05,800 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)'
+INFO  2020-08-10 14:40:05,803 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Roles.RoleAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:05,807 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)
+INFO  2020-08-10 14:40:05,811 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:05,814 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action MyProject.Roles.RoleAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:40:05,816 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:05,978 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:40:05,981 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Roles.RoleAppService.GetAll (MyProject.Application) with arguments (MyProject.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:40:05,989 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.4483ms.
+INFO  2020-08-10 14:40:05,995 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:05,998 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application) in 189.1791ms
+INFO  2020-08-10 14:40:06,000 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)'
+INFO  2020-08-10 14:40:06,002 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 212.1953ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:06,045 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Roles.RoleAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61.3564ms.
+INFO  2020-08-10 14:40:06,052 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:06,054 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Roles.RoleAppService.GetAll (MyProject.Application) in 238.317ms
+INFO  2020-08-10 14:40:06,056 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Roles.RoleAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:06,058 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 268.1144ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:07,397 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:07,399 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:07,400 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.395ms 204 
+INFO  2020-08-10 14:40:07,404 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:07,410 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:07,412 [49   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:07,413 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:07,419 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing action MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:40:07,421 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:07,591 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application) with arguments (MyProject.MultiTenancy.Dto.PagedTenantResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:40:07,629 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36.3146ms.
+INFO  2020-08-10 14:40:07,633 [59   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:07,637 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application) in 216.051ms
+INFO  2020-08-10 14:40:07,638 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:07,640 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236.1222ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:18,382 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:18,385 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:18,386 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2020-08-10 14:40:18,388 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.0218ms 204 
+INFO  2020-08-10 14:40:18,389 [57   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:18,390 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.7617ms 204 
+INFO  2020-08-10 14:40:18,393 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:18,396 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:18,397 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2020-08-10 14:40:18,400 [51   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:18,401 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:18,403 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Roles.RoleAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:18,404 [56   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:18,405 [56   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)'
+INFO  2020-08-10 14:40:18,408 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action MyProject.Roles.RoleAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:40:18,410 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)
+INFO  2020-08-10 14:40:18,411 [51   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:18,414 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:18,416 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Roles.RoleAppService.GetAll (MyProject.Application) with arguments (MyProject.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:40:18,417 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:40:18,421 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1845ms.
+INFO  2020-08-10 14:40:18,432 [56   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:18,433 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Roles.RoleAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14.7849ms.
+INFO  2020-08-10 14:40:18,434 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application) in 22.6406ms
+INFO  2020-08-10 14:40:18,436 [56   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)'
+INFO  2020-08-10 14:40:18,438 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.9221ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:18,443 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:18,444 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Roles.RoleAppService.GetAll (MyProject.Application) in 34.4159ms
+INFO  2020-08-10 14:40:18,446 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Roles.RoleAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:18,449 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.04ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:31,773 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2020-08-10 14:40:31,774 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:31,778 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:31,781 [57   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:31,783 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.9571ms 204 
+INFO  2020-08-10 14:40:31,785 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.8732ms 204 
+INFO  2020-08-10 14:40:31,787 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:31,788 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2020-08-10 14:40:31,790 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:31,791 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:31,792 [56   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:31,794 [48   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:31,796 [56   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetRoles (MyProject.Application)'
+INFO  2020-08-10 14:40:31,797 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:31,801 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action MyProject.Users.UserAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:40:31,802 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action MyProject.Users.UserAppService.GetRoles (MyProject.Application)
+INFO  2020-08-10 14:40:31,803 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:31,804 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:31,806 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.GetRoles (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:40:31,807 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.GetAll (MyProject.Application) with arguments (MyProject.Users.Dto.PagedUserResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:40:31,813 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.GetRoles (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.6539ms.
+INFO  2020-08-10 14:40:31,821 [51   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:31,822 [56   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.8394ms.
+INFO  2020-08-10 14:40:31,824 [51   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetRoles (MyProject.Application) in 20.0274ms
+INFO  2020-08-10 14:40:31,825 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetRoles (MyProject.Application)'
+INFO  2020-08-10 14:40:31,828 [51   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.8369ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:31,833 [57   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:31,835 [57   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAll (MyProject.Application) in 32.2747ms
+INFO  2020-08-10 14:40:31,836 [57   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:31,838 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.4595ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:43,115 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2020-08-10 14:40:43,116 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:43,119 [59   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:43,120 [58   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:43,123 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.9343ms 204 
+INFO  2020-08-10 14:40:43,124 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.9187ms 204 
+INFO  2020-08-10 14:40:43,126 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2020-08-10 14:40:43,129 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:40:43,129 [59   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:43,132 [58   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:43,134 [59   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:43,135 [58   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:40:43,136 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)'
+INFO  2020-08-10 14:40:43,137 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Roles.RoleAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:43,140 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)
+INFO  2020-08-10 14:40:43,142 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action MyProject.Roles.RoleAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:40:43,144 [59   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:43,147 [58   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:40:43,148 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:40:43,150 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Roles.RoleAppService.GetAll (MyProject.Application) with arguments (MyProject.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:40:43,151 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.137ms.
+INFO  2020-08-10 14:40:43,163 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:43,165 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application) in 21.9626ms
+INFO  2020-08-10 14:40:43,166 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)'
+INFO  2020-08-10 14:40:43,168 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.0468ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:40:43,169 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Roles.RoleAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17.8504ms.
+INFO  2020-08-10 14:40:43,174 [59   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:40:43,176 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Roles.RoleAppService.GetAll (MyProject.Application) in 31.896ms
+INFO  2020-08-10 14:40:43,178 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Roles.RoleAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:40:43,180 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.6667ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:15,383 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2020-08-10 14:41:15,385 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:15,386 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.2464ms 204 
+INFO  2020-08-10 14:41:15,393 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2020-08-10 14:41:15,394 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:41:15,396 [64   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:41:15,397 [64   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:41:15,399 [64   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:41:15,401 [64   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:41:15,403 [64   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:41:15,407 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)
+INFO  2020-08-10 14:41:15,408 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:15,411 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) with arguments (MyProject.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2020-08-10 14:41:15,441 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 29.0342ms.
+INFO  2020-08-10 14:41:15,445 [66   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:15,447 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) in 38.7723ms
+INFO  2020-08-10 14:41:15,449 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:41:15,451 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.5715ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:16,086 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:41:16,087 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:16,089 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.8052ms 204 
+INFO  2020-08-10 14:41:16,153 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:41:16,155 [66   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:16,156 [66   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:41:16,158 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:41:16,163 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-08-10 14:41:16,165 [66   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:16,168 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-08-10 14:41:16,175 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.5525ms.
+INFO  2020-08-10 14:41:16,181 [66   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:16,184 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 18.8094ms
+INFO  2020-08-10 14:41:16,186 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:41:16,190 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.6874ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:16,227 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:41:16,233 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:16,240 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.9234ms 204 
+INFO  2020-08-10 14:41:16,311 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:41:16,315 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:16,324 [67   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:41:16,327 [67   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:41:16,332 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)
+INFO  2020-08-10 14:41:16,334 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:16,337 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:41:16,347 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.5851ms.
+INFO  2020-08-10 14:41:16,351 [67   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:16,354 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 19.0494ms
+INFO  2020-08-10 14:41:16,358 [67   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:41:16,361 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.1294ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:33,443 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2020-08-10 14:41:33,444 [62   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:33,445 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.7457ms 204 
+INFO  2020-08-10 14:41:33,454 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2020-08-10 14:41:33,456 [66   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:33,457 [66   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:41:33,458 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:41:33,461 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)
+INFO  2020-08-10 14:41:33,463 [66   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:33,467 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) with arguments (MyProject.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2020-08-10 14:41:33,494 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25.901ms.
+INFO  2020-08-10 14:41:33,501 [62   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:33,502 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) in 39.5293ms
+INFO  2020-08-10 14:41:33,504 [62   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:41:33,506 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.2784ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:45,188 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:41:45,189 [62   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:45,191 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.8169ms 204 
+INFO  2020-08-10 14:41:45,206 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:41:45,208 [66   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:41:45,210 [66   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:41:45,212 [66   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:41:45,214 [66   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:41:45,216 [66   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:41:45,218 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:41:45,222 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-08-10 14:41:45,223 [66   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:45,226 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-08-10 14:41:45,236 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 8.1397ms.
+INFO  2020-08-10 14:41:45,241 [67   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:45,243 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 19.6028ms
+INFO  2020-08-10 14:41:45,245 [67   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:41:45,247 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.4179ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:45,290 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:41:45,292 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:45,294 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.8519ms 204 
+INFO  2020-08-10 14:41:45,329 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:41:45,331 [59   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:41:45,333 [59   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:41:45,336 [59   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:41:45,337 [59   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:41:45,339 [59   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:41:45,346 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:41:45,351 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)
+INFO  2020-08-10 14:41:45,353 [59   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:45,357 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:41:45,358 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3596ms.
+INFO  2020-08-10 14:41:45,360 [59   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:45,361 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 8.576ms
+INFO  2020-08-10 14:41:45,363 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:41:45,365 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.1449ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:53,451 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2020-08-10 14:41:53,453 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:53,454 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.0003ms 204 
+INFO  2020-08-10 14:41:53,459 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2020-08-10 14:41:53,460 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+WARN  2020-08-10 14:41:53,461 [67   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN'.
+WARN  2020-08-10 14:41:53,463 [67   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN'.
+WARN  2020-08-10 14:41:53,464 [67   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-08-10 14:41:53,465 [67   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-08-10 14:41:53,467 [67   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:41:53,473 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)
+INFO  2020-08-10 14:41:53,475 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:53,478 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) with arguments (MyProject.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2020-08-10 14:41:53,507 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.773ms.
+INFO  2020-08-10 14:41:53,512 [62   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:53,513 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) in 38.5909ms
+INFO  2020-08-10 14:41:53,515 [62   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-08-10 14:41:53,517 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.9888ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:53,713 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:41:53,716 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:53,718 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.9293ms 204 
+INFO  2020-08-10 14:41:53,730 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-08-10 14:41:53,734 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:53,737 [67   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:41:53,738 [67   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:41:53,741 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2020-08-10 14:41:53,743 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:53,745 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2020-08-10 14:41:53,752 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.7638ms.
+INFO  2020-08-10 14:41:53,757 [59   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:53,758 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 15.4885ms
+INFO  2020-08-10 14:41:53,760 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-10 14:41:53,762 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.9905ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:41:53,796 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:41:53,797 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:53,803 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4521ms 204 
+INFO  2020-08-10 14:41:53,864 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-08-10 14:41:53,866 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:53,869 [64   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:41:53,871 [64   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:41:53,874 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)
+INFO  2020-08-10 14:41:53,876 [64   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:41:53,879 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:41:53,894 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.2589ms.
+INFO  2020-08-10 14:41:53,896 [64   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:41:53,901 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 22.485ms
+INFO  2020-08-10 14:41:53,904 [64   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-08-10 14:41:53,906 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.3968ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:42:08,289 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:42:08,293 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2020-08-10 14:42:08,295 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:08,297 [66   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:08,303 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.1333ms 204 
+INFO  2020-08-10 14:42:08,306 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.505ms 204 
+INFO  2020-08-10 14:42:08,317 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2020-08-10 14:42:08,340 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:42:08,341 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:08,342 [69   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:08,344 [67   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:42:08,345 [69   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:42:08,347 [67   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetRoles (MyProject.Application)'
+INFO  2020-08-10 14:42:08,348 [69   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:08,352 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action MyProject.Users.UserAppService.GetRoles (MyProject.Application)
+INFO  2020-08-10 14:42:08,353 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action MyProject.Users.UserAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:42:08,354 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:08,356 [69   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:08,358 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.GetRoles (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:42:08,359 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.GetAll (MyProject.Application) with arguments (MyProject.Users.Dto.PagedUserResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:42:08,363 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.GetRoles (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.1156ms.
+INFO  2020-08-10 14:42:08,374 [64   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:42:08,375 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14.7096ms.
+INFO  2020-08-10 14:42:08,377 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetRoles (MyProject.Application) in 22.3161ms
+INFO  2020-08-10 14:42:08,378 [64   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetRoles (MyProject.Application)'
+INFO  2020-08-10 14:42:08,380 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.4252ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:42:08,385 [64   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:42:08,387 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAll (MyProject.Application) in 31.4788ms
+INFO  2020-08-10 14:42:08,390 [64   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:08,393 [64   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.0959ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:42:10,944 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&from=&to=  
+INFO  2020-08-10 14:42:10,945 [62   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:10,947 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.9236ms 204 
+INFO  2020-08-10 14:42:10,953 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&from=&to=  
+INFO  2020-08-10 14:42:10,955 [62   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:10,956 [62   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:42:10,958 [62   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:10,962 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action MyProject.Users.UserAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:42:10,963 [62   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:10,966 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.GetAll (MyProject.Application) with arguments (MyProject.Users.Dto.PagedUserResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:42:10,974 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.1004ms.
+INFO  2020-08-10 14:42:10,980 [69   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:42:10,981 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAll (MyProject.Application) in 18.6023ms
+INFO  2020-08-10 14:42:10,984 [69   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:10,987 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.2483ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:42:11,673 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&from=&to=  
+INFO  2020-08-10 14:42:11,674 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:11,676 [67   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:42:11,677 [67   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:11,680 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action MyProject.Users.UserAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:42:11,682 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:11,685 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Users.UserAppService.GetAll (MyProject.Application) with arguments (MyProject.Users.Dto.PagedUserResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:42:11,692 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Users.UserAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.421ms.
+INFO  2020-08-10 14:42:11,696 [66   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:42:11,698 [66   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAll (MyProject.Application) in 15.9192ms
+INFO  2020-08-10 14:42:11,699 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:11,701 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.6881ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:42:17,474 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2020-08-10 14:42:17,476 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:42:17,477 [62   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:17,478 [69   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:17,481 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.5945ms 204 
+INFO  2020-08-10 14:42:17,481 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.3226ms 204 
+INFO  2020-08-10 14:42:17,487 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2020-08-10 14:42:17,489 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:42:17,490 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:17,492 [69   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:17,493 [69   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:42:17,496 [67   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:42:17,497 [69   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Roles.RoleAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:17,499 [67   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)'
+INFO  2020-08-10 14:42:17,505 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action MyProject.Roles.RoleAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:42:17,507 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)
+INFO  2020-08-10 14:42:17,508 [69   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:17,510 [67   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:17,511 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Roles.RoleAppService.GetAll (MyProject.Application) with arguments (MyProject.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:42:17,513 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application) - Validation state: Valid
+INFO  2020-08-10 14:42:17,518 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.5902ms.
+INFO  2020-08-10 14:42:17,524 [69   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:42:17,526 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application) in 17.774ms
+INFO  2020-08-10 14:42:17,528 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Roles.RoleAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14.0005ms.
+INFO  2020-08-10 14:42:17,529 [69   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Roles.RoleAppService.GetAllPermissions (MyProject.Application)'
+INFO  2020-08-10 14:42:17,531 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.3397ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:42:17,537 [59   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:42:17,538 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Roles.RoleAppService.GetAll (MyProject.Application) in 31.3267ms
+INFO  2020-08-10 14:42:17,540 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Roles.RoleAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:17,542 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.0576ms 200 application/json; charset=utf-8
+INFO  2020-08-10 14:42:29,288 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Tenant/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:42:29,289 [66   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:29,290 [66   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.3512ms 204 
+INFO  2020-08-10 14:42:29,295 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/GetAll?keyword=&maxResultCount=10&skipCount=0  
+INFO  2020-08-10 14:42:29,296 [59   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:29,298 [59   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-08-10 14:42:29,303 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:29,308 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing action MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application)
+INFO  2020-08-10 14:42:29,310 [59   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-08-10 14:42:29,313 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application) with arguments (MyProject.MultiTenancy.Dto.PagedTenantResultRequestDto) - Validation state: Valid
+INFO  2020-08-10 14:42:29,331 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.4512ms.
+INFO  2020-08-10 14:42:29,341 [62   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-10 14:42:29,343 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application) in 33.1593ms
+INFO  2020-08-10 14:42:29,345 [62   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.MultiTenancy.TenantAppService.GetAll (MyProject.Application)'
+INFO  2020-08-10 14:42:29,347 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.1843ms 200 application/json; charset=utf-8
